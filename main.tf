@@ -22,7 +22,7 @@ data "aws_ami" "myami" {
 }
 
 resource "aws_security_group" "http" {
-  name   = "http"
+  name = "http"
 
   ingress {
     from_port        = 0
